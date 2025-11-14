@@ -43,7 +43,7 @@ def print_book_report(book_text, book_path): # prints report of word and charact
     print(word_count_report)
     print("--------- Character Count -------")
 
-    for entry in sorted_counts:
+    for entry in sorted_counts: # print each character and its count
         char = entry["char"]
         num = entry["num"]
         if char.isalpha():  # skip all non-alphabetic characters
